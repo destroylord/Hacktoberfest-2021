@@ -7,8 +7,15 @@
 
     $id = $_GET['id'];
 
-    $sql = mysqli_query($conn, "SELECT * FROM tbl_barang where id = $id");
-    $barang = mysqli_fetch_assoc($sql);
+    if(isset($id) && $id != ""){
+        $sql = mysqli_query($conn, "SELECT * FROM tbl_barang where id = $id");
+        $barang = mysqli_fetch_assoc($sql);
+        if(mysqli_num_rows($sql) <= 0){
+            header("location:../index.php");
+        }
+    }else{
+        header("location:../index.php");
+    }
     
 ?>
 
