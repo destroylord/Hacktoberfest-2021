@@ -13,4 +13,5 @@ if (!$sql) {
     echo "Gagal mengubah data!";
 } else {
     header('location: ../index.php');
+	exit();
 }
