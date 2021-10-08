@@ -5,3 +5,11 @@
 3. Jangan lupa project ini harus ditaruh di `Disk_kamu/xampp/htdocs`
 4. Jalankan aplikasi CRUD sederhana ini dibrowser yang anda gunakan
 5. Selamat menggunakan aplikasi ini semoga bermanfaat :)
+
+### Dibuat Dengan
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JAVASCRIPT</li>
+  <li>PHP</li>
+</ul>
