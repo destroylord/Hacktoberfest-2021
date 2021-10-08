@@ -13,4 +13,5 @@ if (!$sql) {
     echo "Gagal Menghapus";
 } else {
     header("location:../index.php");
+	exit();
 }

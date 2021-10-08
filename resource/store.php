@@ -17,4 +17,5 @@ if (!$sql) {
     echo "err";
 } else {
     header("location:../index.php");
+	exit();
 }

@@ -12,9 +12,11 @@
         $barang = mysqli_fetch_assoc($sql);
         if(mysqli_num_rows($sql) <= 0){
             header("location:../index.php");
+            exit();
         }
     }else{
         header("location:../index.php");
+	    exit();
     }
     
 ?>
